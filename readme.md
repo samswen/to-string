@@ -8,7 +8,7 @@ enable converting object to string by removing circular reference
 
 # how to use
 
-    const to_string = require('@samwen/to_string');
+    const to_string = require('@samwen/to-string');
 
     const b = { name: 'b' };
     const a = { name: 'a', reference_to: b};

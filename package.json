@@ -1,6 +1,6 @@
 {
   "name": "@samwen/to-string",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "enable converting object to string by removing circular reference",
   "main": "index.js",
   "scripts": {
