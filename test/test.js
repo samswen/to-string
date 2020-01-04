@@ -20,7 +20,7 @@ describe('test to_string with a string', () => {
     });
 });
 
-describe('test to_string with a circle referenced object', () => {
+describe('test to_string with a circular referenced object', () => {
 
     it('verifies it should return a string', async () => {
 

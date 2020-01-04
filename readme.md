@@ -1,6 +1,6 @@
 # to-string
 
-enable converting object to string by removing circle reference
+enable converting object to string by removing circular reference
 
 # how to install
 
@@ -14,6 +14,6 @@ enable converting object to string by removing circle reference
     const a = { name: 'a', reference_to: b};
     b['reference_to'] = a;
 
-    // a has circle reference
+    // a has circular reference
     const s = to_string(a);
     
